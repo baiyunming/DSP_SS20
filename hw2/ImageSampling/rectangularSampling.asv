@@ -1,0 +1,5 @@
+x = linspace(1,512,400);
+y =  linspace(1,512,400);
+[gridX, gridY] = meshgrid(x,y);
+figure,scatter(gridX(:), gridY(:)); grid on; box on; xlim([1 10]); ylim([1 10]);
+
